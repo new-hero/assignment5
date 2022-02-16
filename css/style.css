@@ -34,6 +34,7 @@ input{
     background-color: #dcdcdc;
     border: none;
     padding: 5px 10px ;
+    border-radius: 10px;
 }
 .savediv{
     width: 250px;
