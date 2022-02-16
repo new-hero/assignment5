@@ -6,13 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5 with Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- header start -->
+    <header>
+        <h1 class="heading"> Monthly Expenses</h1>
+    </header>
+    <!-- header end -->
+    <!-- main section start -->
+    <main>
+        <section class="container">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 ">
+                    <img src="images/calculator.jpg" class="img-fluid image" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="inner-contents">
+                        <h3 class="mb-4">Income</h3>
+                        <p> Income: <input type="text" id="incomeValue"></p>
+                        <h3 class="mb-4">Expenses</h3>
+
+                        <p> Food: <input type="text" id="foodValue"></p>
+                        <p> Rent: <input type="text" id="rentValue"></p>
+                        <p> Cloths : <input type="text" id="clothsValue"></p>
+
+                        <button class="btn btn-primary btn-lg mb-4" id="calculateBtn">Calculate</button>
+                        <h3>Total Expenses : <span>0000</span></h3>
+                        <h3>Balance : <span>0000</span></h3>
+                        <div class="savediv">
+                            <h4 class="d-inline"> Save: </h4>
+                            <input type="text" id="parsentValue">
+                            <span> % </span>
+                            <button id="saveBtn" class="btn btn-primary">Save</button>
+                        </div>
+                        <h3>Saving Amount : <span id="saved">0000</span></h3>
+                        <h3>Remaining Balance : <span id="ramaining">0000</span></h3>
 
 
 
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- main section end -->
+
+
+    <!-- script start here -->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 
