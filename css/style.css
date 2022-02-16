@@ -33,15 +33,17 @@ body{
 input{
     background-color: #dcdcdc;
     border: none;
+    padding: 5px 10px ;
 }
 .savediv{
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto ;
+    margin: 18px auto ;
 }
 #parsentValue{
     width: 50px;
     height: 35px;
+    text-align: center;
 }
